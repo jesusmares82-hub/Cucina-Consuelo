@@ -53,9 +53,9 @@ iframe {
 }
 .contact {
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
   display: flex;
-  padding-top: 200px;
+  /*padding-top: 200px;*/
   justify-content: center;
 }
 p {
