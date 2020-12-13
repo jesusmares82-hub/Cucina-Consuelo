@@ -1,10 +1,82 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 body {
   font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #000;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.image1 {
+  background-image: url("../IMG/Image1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image2 {
+  background-image: url("../IMG/Image2.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image3 {
+  background-image: url("../IMG/Image3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image4 {
+  background-image: url("../IMG/Image4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image5 {
+  background-image: url("../IMG/Image5.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image6 {
+  background-image: url("../IMG/Image6.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image7 {
+  background-image: url("../IMG/Image7.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image8 {
+  background-image: url("../IMG/Image8.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image9 {
+  background-image: url("../IMG/Image9.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image10 {
+  background-image: url("../IMG/Image10.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image11 {
+  background-image: url("../IMG/Image11.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.image12 {
+  background-image: url("../IMG/Image12.jpeg");
+  background-position: center;
+  background-size: cover;
 }
 .logo {
   width: 200px;
@@ -14,7 +86,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(226, 226, 244);
+  background-color: rgb(194, 194, 237);
 }
 .nav-menu ul li {
   list-style: none;
@@ -23,33 +95,16 @@ body {
   text-decoration: none !important;
   color: rgb(71, 71, 203);
 }
-iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.swiper-container {
   width: 100%;
-  height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* CSS general */
-/*.mi-iframe {
-  width: 800px;
-  height: 50px;
-}*/
-
-/* CSS pantallas de 320px o superior */
-@media (min-width: 400px) {
-  .mi-iframe {
-    /*width: 400px;*/
-    height: 150px;
-  }
-}
-
-/* CSS pantalla 768px o superior */
-@media (min-width: 768px) {
-  .mi-iframe {
-    /*width: 500px;*/
-    height: 350px;
-  }
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
 }
 .contact {
   width: 100%;
@@ -64,4 +119,7 @@ p {
 }
 .green {
   color: green;
+}
+.font-size-large {
+  font-size: large;
 }
