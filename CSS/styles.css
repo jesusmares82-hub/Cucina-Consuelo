@@ -84,7 +84,7 @@ iframe {
 }
 .nav-menu ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(194, 194, 237);
 }
