@@ -1,7 +1,6 @@
 //======================================================================
 // LOADING
 //======================================================================
-window.addEventListener("load", function () {
-  console.log(document.getElementById("loader"));
+function load() {
   document.getElementById("loader").classList.toggle("loader2");
-});
+}
