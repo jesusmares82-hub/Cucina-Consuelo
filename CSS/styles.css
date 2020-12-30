@@ -177,5 +177,6 @@ p {
   transition: clip-path 0.85s ease-in-out;
 }
 .loader2 {
+  position: relative;
   clip-path: circle(0% at 100% 100%);
 }
